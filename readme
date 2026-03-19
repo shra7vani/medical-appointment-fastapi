@@ -1,0 +1,32 @@
+# 🏥 Medical Appointment System — FastAPI
+
+A production-style REST API built with FastAPI and Python.
+
+## 🛠️ Tech Stack
+- Python
+- FastAPI
+- Pydantic
+- Swagger UI
+
+## ✅ Features
+- Doctor & Appointment CRUD
+- JWT-ready Auth structure
+- Search, Filter, Sort, Pagination
+- Business rule validations (duplicate check, delete guard)
+- 3-step workflow: Book → Confirm → Complete
+- Auto Swagger UI docs
+
+## 🚀 Run Locally
+pip install fastapi uvicorn
+uvicorn main:app --reload
+
+## 📖 API Docs
+Visit: http://127.0.0.1:8000/docs
+```
+
+---
+
+
+
+
+
